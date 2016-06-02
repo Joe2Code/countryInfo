@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C335F85E1CF920B900AD5570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C335F85D1CF920B900AD5570 /* AppDelegate.swift */; };
-		C335F8601CF920B900AD5570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C335F85F1CF920B900AD5570 /* ViewController.swift */; };
 		C335F8631CF920B900AD5570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C335F8611CF920B900AD5570 /* Main.storyboard */; };
 		C335F8651CF920B900AD5570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C335F8641CF920B900AD5570 /* Assets.xcassets */; };
 		C335F8681CF920B900AD5570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C335F8661CF920B900AD5570 /* LaunchScreen.storyboard */; };
+		C335F8701CF9240900AD5570 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C335F86F1CF9240900AD5570 /* MainTableViewController.swift */; };
+		C3A2023B1CFFC80600DFF40D /* CountryNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2023A1CFFC80600DFF40D /* CountryNameTableViewCell.swift */; };
+		C3A2023D1CFFCFCE00DFF40D /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2023C1CFFCFCE00DFF40D /* CountryInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C335F85A1CF920B800AD5570 /* SimpleCountry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCountry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C335F85D1CF920B900AD5570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C335F85F1CF920B900AD5570 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C335F8621CF920B900AD5570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C335F8641CF920B900AD5570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C335F8671CF920B900AD5570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C335F8691CF920B900AD5570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C335F86F1CF9240900AD5570 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		C3A2023A1CFFC80600DFF40D /* CountryNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryNameTableViewCell.swift; sourceTree = "<group>"; };
+		C3A2023C1CFFCFCE00DFF40D /* CountryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,9 @@
 		C335F8511CF920B800AD5570 = {
 			isa = PBXGroup;
 			children = (
+				C3A2023C1CFFCFCE00DFF40D /* CountryInfo.swift */,
+				C335F86F1CF9240900AD5570 /* MainTableViewController.swift */,
+				C3A2023A1CFFC80600DFF40D /* CountryNameTableViewCell.swift */,
 				C335F85C1CF920B900AD5570 /* SimpleCountry */,
 				C335F85B1CF920B800AD5570 /* Products */,
 			);
@@ -55,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				C335F85D1CF920B900AD5570 /* AppDelegate.swift */,
-				C335F85F1CF920B900AD5570 /* ViewController.swift */,
 				C335F8611CF920B900AD5570 /* Main.storyboard */,
 				C335F8641CF920B900AD5570 /* Assets.xcassets */,
 				C335F8661CF920B900AD5570 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C335F8601CF920B900AD5570 /* ViewController.swift in Sources */,
+				C3A2023D1CFFCFCE00DFF40D /* CountryInfo.swift in Sources */,
+				C3A2023B1CFFC80600DFF40D /* CountryNameTableViewCell.swift in Sources */,
+				C335F8701CF9240900AD5570 /* MainTableViewController.swift in Sources */,
 				C335F85E1CF920B900AD5570 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				C335F86E1CF920B900AD5570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
